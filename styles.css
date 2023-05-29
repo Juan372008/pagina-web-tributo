@@ -19,6 +19,8 @@
 }
 .body{
     background-image: url(./imagenes/concierto-grupo-Seguridad-Social_1694541210_160982973_667x375.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .historia{
     color: white;
@@ -159,6 +161,9 @@
 .nav-bar{
     display: flex;
     flex-direction: row;
+    background-image: url(./imagenes/cullan-smith-BdTtvBRhOng-unsplash.jpg) ;
+    align-items: center;
+
 }
 .nav-bar-item{
 
@@ -167,6 +172,7 @@
     text-decoration: none;
     margin: 20px;
     text-size-adjust: 40px;
+    font-size: 40px;
 
 }
 .nav-bar-item:visited{
