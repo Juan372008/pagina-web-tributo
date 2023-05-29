@@ -161,8 +161,7 @@
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-image: url(./imagenes/cullan-smith-BdTtvBRhOng-unsplash.jpg) ;
-    align-items: center;
+    align-items: flex-start;
 
 }
 .nav-bar-item{
@@ -172,7 +171,7 @@
     text-decoration: none;
     margin: 20px;
     text-size-adjust: 40px;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 .nav-bar-item:visited{
