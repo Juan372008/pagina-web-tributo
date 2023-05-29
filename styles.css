@@ -1,0 +1,246 @@
+.header{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    width: 200px;
+    height: 20vh;
+    animation-name: logo;
+    animation-duration: 3s;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: white;
+    background-image: url(./imagenes/cullan-smith-BdTtvBRhOng-unsplash.jpg) ;
+
+}
+.body{
+    background-image: url(./imagenes/concierto-grupo-Seguridad-Social_1694541210_160982973_667x375.jpg) ;
+}
+.historia{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+.texto{
+    background-color: white;
+    font-size: larger;
+    margin: 40px;
+
+}
+.albumes{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.cada-album{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.cada-album div{
+    margin: 20px;
+}
+.en-desconcierto{
+    width: 300px;
+    height: 35vh;
+}
+.camino-vertical{
+    width: 300px;
+    height: 35vh;
+}
+.furia-latina{
+    width: 300px;
+    height: 35vh;
+}
+
+.la-encrucijada{
+    width: 300px;
+    height: 35vh;
+}
+.vino-tabaco{
+    width: 300px;
+    height: 35vh;
+}
+.titulo-album{
+    color: white;
+    font-size: 30px;
+}
+.fecha{
+    color: white;
+    font-size: 20px;
+}
+.div-album{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.texto-footer{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.chiquilla{
+    display: flex;
+    background-color: white;
+    width: 40vw;
+    height: 20vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.quiero-tener{
+    background-color: white;
+    width: 40vw;
+    height: 20vh;
+    border-radius: 20px;
+
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.titlo-cancion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.titlo-cancion h3, h4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cancion-chiquilla{
+    line-height: 20px;
+    text-align: center;
+    color: black;
+}
+.album-chiquilla{
+    text-align: center;
+    color: black;
+}
+.titulo-cancion-chiquilla{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: black;
+}
+.titulo-cancion-chiquilla:visited{
+    text-decoration: none;
+}
+.cancion-chiquilla:visited{
+    text-decoration: none;
+    color: black;
+}
+.formato-foto-chiquilla{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    height: 16vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar-item{
+
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    text-size-adjust: 40px;
+
+}
+.nav-bar-item:visited{
+    color: white;
+
+}
+.nav-bar-item:hover{
+    color: red;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes logo {
+    0%{
+        width: 200px;
+        height: 20vh;
+    }
+    50%{
+        width: 400px;
+        height: 40vh;
+    }
+    100%{
+        width: 200px;
+        height: 20vh; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cada-album{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+
+
+    
+    }
+    .titulo{
+        
+        font-size: 60px;
+        color: white;
+        background-image: url(./imagenes/cullan-smith-BdTtvBRhOng-unsplash.jpg) ;
+        text-align: center;
+    
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-bar-item{
+    
+        list-style-type: none;
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+        text-size-adjust: 40px;
+    
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .chiquilla{
+        margin-bottom: 40px;
+    }
+}
